@@ -27,13 +27,3 @@ public:
         motor.step(passosPorGiro);
     }
 };
-
-MotorPasso mp(e1, e2, e3, e4, passosPorGiro, 500);
-
-void setup() {
-}
-
-void loop() {
-    mp.girar();
-    delay(2000);
-}
